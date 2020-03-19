@@ -6,21 +6,18 @@
 @import 'libs/html-grid';
 
 /*
-	Forty by HTML5 UP
+	Overflow by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Banner */
+/* Header */
 
-	#banner {
+	#header {
 		body.is-preload & {
-			&:after {
-				opacity: 0.85;
-			}
+			opacity: 1;
 
-			> .inner {
-				@include vendor('filter', 'none');
+			footer {
 				@include vendor('transform', 'none');
 				opacity: 1;
 			}
